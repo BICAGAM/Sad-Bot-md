@@ -1,4 +1,4 @@
-import fs, {
+impor  fs , {
 	watchFile,
 	unwatchFile
 } from 'fs'
@@ -45,8 +45,8 @@ global.wm = '                「 ꜱᴀᴅ BOT あ⁩ 」'
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘օառɛʀ - chαn˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ ꜱᴀᴅ 𝗕𝗢𝗧'
 function ucapan() {
-	var time = moment.tz('Asia/Jakarta').format('HH')
-	var res
+	var   waktu   =   momen . tz ( 'Asia/Jakarta' ). format ( 'HH' )
+	var  res
 	res = tiny("Selamat pagi ")
 	if (time >= 4) {
 		res = tiny("Selamat pagi ")
@@ -105,7 +105,7 @@ var COUNT_FORMATS = [{ // 0 - 999
 ];
 
 // Format Method:
-global.formatnum = function formatnum(value) {
+global . formatnum  =  fungsi  formatnum ( nilai ) {
 	var format = COUNT_FORMATS.find(format => (value < format.limit));
 
 	value = (1000 * value / format.limit);
